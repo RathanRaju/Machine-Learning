@@ -22,6 +22,21 @@
 
 ---
 
+### Random Forest Classifier
+
+#### Random forest is a learning algorithm that is supervised. It produces a "forest" out of an ensemble of decision trees, which are normally trained using the "bagging" process. The bagging method's basic premise is that combining different learning models improves the overall outcome.
+Random forest is also a valuable algorithm because the default hyperparameters it utilises often make accurate predictions. Understanding the hyperparameters is easy, and there aren't many of them to begin with. 
+
+[Random Forest Classifier Example](https://github.com/RathanRaju/Machine-Learning/blob/master/Customer%20Segmentation%20Classification.ipynb)
+
+--- 
+
+###	Support Vector Classifier
+
+#### Libsvm is used in this implementation. The fit time scales at least quadratically with the number of samples, and above tens of thousands of samples, it may be impractical. Consider using LinearSVC or SGDClassifier instead, probably after a Nystroem transformer, for large datasets. A one-to-one scheme is used to manage multiclass support. 
+
+[Random Forest Classifier Example](https://github.com/RathanRaju/Machine-Learning/blob/master/Customer%20Segmentation%20Classification.ipynb)
+
 
 
 
